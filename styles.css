@@ -1,0 +1,76 @@
+/* Reset some default margin/padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the header */
+header {
+    background-color: #333; /* Background color of the header */
+    color: #fff; /* Text color */
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the logo/name */
+.logo {
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+/* Style for the navigation menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+/* Reset some default margin/padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the hero section */
+.hero-section {
+    background-image: url('background-image.jpg'); /* Replace 'background-image.jpg' with your actual image file */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Text color */
+}
+
+/* Style for the hero content */
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em; /* Adjust the font size as needed */
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5em; /* Adjust the font size as needed */
+}
